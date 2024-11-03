@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <form>
+        <form>
+            <fieldset>
+                <legend>ข้อมูลส่วนตัว</legend><br>
+                <label for="ชื่อ-สกุล">*ชื่อ-สกุล:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="name">*Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="gender">*เพศ:</label><br>
+                <input type="radio" id="ชาย" name="gender" value="ชาย">
+                <label for="male">ชาย</label><br>
+                <input type="radio" id="หญิง" name="gender" value="หญิง">
+                <label for="หญิง">หญิง</label><br>
+                <input type="radio" id="อื่น ๆ" name="gender" value="อื่น ๆ">
+                <label for="อื่น ๆ">อื่น ๆ</label><br><br>
+                <label for="รหัศนักศึกษา">*รหัศนักศึกษา:</label>
+                <input type="text" id="รหัศนักศึกษา" name="รหัศนักศึกษา" required><br>
+                <P>*คณะที่ศึกษา</P>
+                <select name="คณะที่ศึกษา" required>
+                    <option value="คณะนิติศาสตร์">คณะนิติศาสตร์</option>
+                    <option value="คณะพาณิชยศาตร์และการบัญชี">คณะพาณิชยศาตร์และการบัญชี</option>
+                    <option value="คณะรัฐศาสตร์">คณะรัฐศาสตร์</option>
+                    <option value="คณะเศรษฐศาสตร์">คณะเศรษฐศาสตร์</option>
+                    <option value="คณะสังคมสงเคราะห์ศาสตร์">คณะสังคมสงเคราะห์ศาสตร์</option>
+                    <option value="คณะวารสารศาสตร์และสื่อสารมวลชน">คณะวารสารศาสตร์และสื่อสารมวลชน</option>
+                    <option value="วิทยาลัยนวัตกรรม">วิทยาลัยนวัตกรรม</option>
+                    <option value="วิทยาลัยสหวิทยาการ">วิทยาลัยสหวิทยาการ</option>
+                    <option value="วิทยาลัยนานาชาติปรีดีพนมยงค์">วิทยาลัยนานาชาติปรีดีพนมยงค์</option>
+                    <option value="คณะสังคมวิทยาและมานุษยวิทยา">คณะสังคมวิทยาและมานุษยวิทยา</option>
+                    <option value="คณะวิทยาศาสตร์และเทคโนโลยี">คณะวิทยาศาสตร์และเทคโนโลยี</option>
+                    <option value="คณะวิศวกรรมศาสตร์">คณะวิศวกรรมศาสตร์</option>
+                    <option value="คณะแพทยศาสตร์">คณะแพทยศาสตร์</option>
+                    <option value="คณะสหเวชศาสตร์">คณะสหเวชศาสตร์</option>
+                    <option value="คณะทันตแพทยศาสตร์">คณะทันตแพทยศาสตร์</option>
+                    <option value="คณะพยาบาลศาสตร์">คณะพยาบาลศาสตร์</option>
+                    <option value="คณะศิลปกรรมศาสตร์">คณะศิลปกรรมศาสตร์</option>
+                    <option value="คณะสถาปัตยกรรมศาสตร์และการผังเมือง">คณะสถาปัตยกรรมศาสตร์และการผังเมือง</option>
+                    <option value="คณะเภสัชศาสตร์">คณะเภสัชศาสตร์</option>
+                    <option value="คณะวิทยาการเรียนรู้และศึกษาศาสตร์">คณะวิทยาการเรียนรู้และศึกษาศาสตร์</option>
+                    <option value="สถาบันเทคโนโลยีนานาชาติสิรินธร">สถาบันเทคโนโลยีนานาชาติสิรินธร</option>
+                    <option value="วิทยาลัยโลกคดีศึกษา">วิทยาลัยโลกคดีศึกษา</option>
+                    <option value="วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์">วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์</option>
+                    <option value="วิทยาลัยพัฒนศาสตร์ป๋วยอึ๊งภากรณ์">วิทยาลัยพัฒนศาสตร์ป๋วยอึ๊งภากรณ์</option>
+
+
+                </select><br><br>
+                <label for="email">*Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="วันเดือนปีเกิด">*วันเดือนปีเกิด:</label>
+                <input type="date" id="วันเดือนปีเกิด" name="วันเดือนปีเกิด" required> <br><br>
+
+
+
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>*ประเภทของหนังสือที่สนใจ</legend><br>
+
+                <select name="ประเภทของหนังสือที่สนใจ" required>
+                    <option value="นิยายและวรรณกรรม">นิยายและวรรณกรรม</option>
+                    <option value="วิทยาการและเทคโนโลยี">วิทยาการและเทคโนโลยี</option>
+                    <option value="ประวัติศาสตร์และวัฒนธรรม">ประวัติศาสตร์และวัฒนธรรม</option>
+                    <option value="การศึกษาและการเรียนรู้">การศึกษาและการเรียนรู้</option>
+                    <option value="ธุรกิจและการเงิน">ธุรกิจและการเงิน</option>
+                    <option value="สุขภาพและการดูแลรักษา">สุขภาพและการดูแลรักษา</option>
+                    <option value="ศาสนาและปรัชญา">ศาสนาและปรัชญา</option>
+                </select>
+                <br><br>
+            </fieldset>
+            <br>
+            <label
+                for="ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่">*ต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่</label>
+            <input type="checkbox" id="ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่" name="newsletter"
+                value="yes" required><br><br>
+            <input type="submit" value="Submit" required>
+        </form>
+</body>
+
+
+</html>
